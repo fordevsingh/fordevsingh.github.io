@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal profile and portfolio website">
+  <title>Devashish Singh | Personal Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">Dev<span>Singh</span></a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#interests">Interests</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">PERSONAL PROFILE</p>
+        <h1>Hello, I'm <span>Devashish Singh.</span></h1>
+        <p class="hero-subtitle">B.Tech Student • Java &amp; Web Developer</p>
+        <p class="hero-description">
+          I'm a Computer &amp; Communication Engineering student at Manipal Institute of Technology.
+          I enjoy building full-stack apps, desktop software, and databases from scratch.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#about">Get to know me <span aria-hidden="true">↘</span></a>
+          <a class="button button-secondary" href="#contact">Contact me</a>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <img class="profile-photo" src="images/profile.jpg" alt="Portrait of Devashish Singh">
+        <div class="photo-note">A little about me ✦</div>
+      </div>
+      <div class="hero-orb orb-one"></div>
+      <div class="hero-orb orb-two"></div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">01 / INTRODUCTION</p>
+        <h2>About <span>Me</span></h2>
+      </div>
+      <div class="about-card">
+        <div class="about-mark" aria-hidden="true">✳</div>
+        <div>
+          <h3>Curious by nature. Always learning.</h3>
+          <p>
+            I'm a B.Tech student in Computer &amp; Communication Engineering at Manipal Institute
+            of Technology (2024–2028) with a CGPA of 8.64. I like turning ideas into working software,
+            from REST APIs and relational databases to JavaFX desktop apps and browser tools.
+          </p>
+          <p>
+            Outside of coursework, I build personal projects in Java and JavaScript and follow sports through
+            the lens of data and statistics.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="education">
+      <div class="section-heading">
+        <p class="eyebrow">02 / MY JOURNEY</p>
+        <h2>Education &amp; <span>Experience</span></h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-dot"></div>
+          <p class="timeline-date">2024 – 2028</p>
+          <div class="timeline-content">
+            <h3>BTech in Computer &amp; Communication Engineering</h3>
+            <p class="muted">Manipal Institute of Technology</p>
+            <p>CGPA: 8.64. Building a strong foundation in programming, databases, and problem-solving.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-dot"></div>
+          <p class="timeline-date">2021 – 2023</p>
+          <div class="timeline-content">
+            <h3>Higher Secondary Education</h3>
+            <p class="muted">Vidyodaya School</p>
+            <p>Completed higher secondary education and discovered areas of study that interest me.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">03 / WHAT I'VE BUILT</p>
+        <h2>My <span>Projects</span></h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>HoopDB</h3>
+          <p class="tags">Java 17 · Javalin · Oracle DB · JDBC · Maven</p>
+          <p>A basketball league management web app with a REST API, Oracle schema, and browser UI. Covers player search, box scores, career averages, and season standings.</p>
+          <a class="project-link" href="https://github.com/fordevsingh/hoopdb" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a>
+        </article>
+        <article class="project-card">
+          <h3>Hotel Management System</h3>
+          <p class="tags">Java 17 · JavaFX 21 · Maven · FXML · CSS</p>
+          <p>A JavaFX desktop app for rooms, customers, bookings, checkout, and billing, with availability tracking, validation, and serialized backup recovery.</p>
+          <a class="project-link" href="https://github.com/fordevsingh/hotel-management-system" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a>
+        </article>
+        <article class="project-card">
+          <h3>OpenBook</h3>
+          <p class="tags">JavaScript · PDF.js · Vite · IndexedDB</p>
+          <p>A local-first PDF reader that runs in the browser. Saves reading progress, bookmarks, and recent files, with a document outline and dark mode.</p>
+          <a class="project-link" href="https://github.com/fordevsingh/OpenBook" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">04 / WHAT I USE</p>
+        <h2>My <span>Skills</span></h2>
+        <p class="section-intro">The languages, frameworks, and tools I work with.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card"><span class="skill-icon">⌘</span><h3>Languages</h3><p>Java, C, C++, JavaScript, SQL, HTML/CSS</p></article>
+        <article class="skill-card"><span class="skill-icon">✦</span><h3>Frameworks &amp; Libraries</h3><p>Javalin, JavaFX, PDF.js, Vite, Gson, FXML</p></article>
+        <article class="skill-card"><span class="skill-icon">≡</span><h3>Databases &amp; Storage</h3><p>Oracle Database, JDBC, IndexedDB, file-based persistence</p></article>
+        <article class="skill-card"><span class="skill-icon">↗</span><h3>Developer Tools</h3><p>Git, GitHub, Maven, VS Code, IntelliJ IDEA</p></article>
+      </div>
+    </section>
+
+    <section class="section container" id="interests">
+      <div class="section-heading">
+        <p class="eyebrow">05 / OUTSIDE THE CLASSROOM</p>
+        <h2>Interests &amp; <span>Hobbies</span></h2>
+      </div>
+      <div class="interest-list">
+        <div class="interest-item"><span>⚾</span><div><h3>Sports &amp; Analytics</h3><p>Following sports and exploring the stories hidden in statistics.</p></div></div>
+        <div class="interest-item"><span>💻</span><div><h3>Building Projects</h3><p>Experimenting with code and creating useful things from scratch.</p></div></div>
+        <div class="interest-item"><span>📚</span><div><h3>Learning</h3><p>Discovering new ideas, tools, and ways to improve every day.</p></div></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <div>
+          <p class="eyebrow">06 / SAY HELLO</p>
+          <h2>Let's connect<span>.</span></h2>
+          <p>Have an opportunity, an idea, or just want to say hello? Feel free to reach out.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:fordevsingh@gmail.com">✉ <span>fordevsingh@gmail.com</span></a>
+          <a href="https://github.com/fordevsingh" target="_blank" rel="noopener noreferrer">⌘ <span>github.com/fordevsingh</span> ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 Devashish Singh</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
